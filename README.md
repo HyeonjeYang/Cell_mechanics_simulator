@@ -8,10 +8,6 @@
 [![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=white)](#tech-stack)
 [![Three.js](https://img.shields.io/badge/Three.js-r128-black?logo=three.js)](#tech-stack)
 
-<p align="center">
-  <img src="docs/preview-multi.png" alt="Multi-cell 3D simulation" width="48%" />
-  <img src="docs/preview-single.png" alt="Single cell FEA" width="48%" />
-</p>
 
 ---
 
@@ -54,9 +50,9 @@ Full 3D tissue-level simulation with multiple interacting cells.
 - **Green-Lagrange strain** — large deformation formulation
 - **Von Mises stress** — equivalent stress for rupture prediction
 - **Interactive tools:**
-  - 👊 **Push** — apply force by dragging on cell surface
-  - 🧲 **Pull** — attract nodes toward cursor
-  - 📌 **Pin** — fix boundary conditions (click to toggle)
+  - **Push** — apply force by dragging on cell surface
+  - **Pull** — attract nodes toward cursor
+  - **Pin** — fix boundary conditions (click to toggle)
 - **Compression plates** — top/bottom and left/right rigid surfaces
 - **Cell rupture** — elements flash red when σ_VM > membrane strength
 - **4 visualization modes** — Von Mises / Pressure / Strain / Displacement
